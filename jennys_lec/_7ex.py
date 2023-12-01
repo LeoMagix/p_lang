@@ -1,5 +1,5 @@
-wt = int(input())
-ht = float(input())
+wt = int(input('WEIGHT: '))
+ht = float(input('HEIGHT: '))
 bmi  = round(wt / ht**2, 1)
 
 print(bmi)

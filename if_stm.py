@@ -38,16 +38,17 @@ age = 3
     #print('blabaloo')
 
 lst = ['nike', 'adidas', 'puma']
-#if 'nike' in lst:
-    #print('air jordan')
-    #if 'n' in 'nike':
-        #print('\tdaam')
-#if 'puma' in lst:
-    #print('usain bolt')
-#if 'adidas' in lst:
-    #print("yeezy's?")
-#if 'joma' in lst:
-    #print('blank')
+if 'nike' in lst:
+    print('air jordan')
+    if 'n' in 'nike':
+        print('\tdaam')
+if 'puma' in lst:
+    print('usain bolt')
+if 'adidas' in lst:
+    print("yeezy's?")
+if 'joma' in lst:
+    print('blank')
+'''
 lst.append('lv')
 print(lst)
 for swag in lst:
@@ -64,3 +65,4 @@ if reqsts:
         print(i)    
 else:
     print('Please select a request')
+'''
