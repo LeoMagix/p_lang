@@ -1,5 +1,0 @@
--In Python, we can create a strings using a specialized format-string, 'f-strings'
--In Python, we can create functions that do the bulk of our programs work.
--In Python, we have variables that act as placeholders or containers for values.
--We have lists and tuples in Python to help store multiple items of the same group.
--We also in Python have class and ways for the child to inherit from a parent class.
