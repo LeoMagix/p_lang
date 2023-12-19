@@ -4,7 +4,11 @@ def car(**cars):
     active = True
     while active:
         for car, desc in cars.items():
-            print(f"{car.upper()}: {desc.title()}")
+            if car == 'engine':
+                print(f"{car.upper()}: {desc.upper()}")
+            
+            else:
+                print(f"{car.upper()}: {desc.title()}")
 
         ans = input("You can enter 'x' to exit.")
         
