@@ -32,5 +32,5 @@ print()
 bio2 = f"updated personal profile"
 print(f"{bio2.upper()}:")
 
-for info, file in data.items():
+ for info, file in data.items():
     print(f"\t{info.upper()}-{file.title()}")

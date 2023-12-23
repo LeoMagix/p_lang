@@ -25,14 +25,15 @@ mentors = {
             'accomplishment' : 'a.c. current, countless futuristic innovations'
             },
 
-        'musk': {
-            'fullname' : 'ELon musk',
+        'musk':
+        {
+            'fullname' : 'Elon musk',
             'profession' : 'scientist, engineer, business man',
             'country' : 'south africa, u.s.a',
-            'nicjname' : 'techking',
+            'nickname' : 'techking',
             'attributes' : 'learning, vision, resourcefulness, knowledge, innovativeness',
             'values' : 'work ethic, dedication, self-sacrifice, goal-driven, focus',
-            'accomplishment' : 'CEO tesla cars, spaceX, starlinks, billionamire',
+            'accomplishment' : 'CEO tesla cars, spaceX, starlinks, billionaire',
             },
         }
 #print(mentors)
