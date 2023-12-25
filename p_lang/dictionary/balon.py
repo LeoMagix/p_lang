@@ -1,8 +1,8 @@
-"""Simple program to store  a ilst in a dictionary."""
+"""Simple program to store  a list in a dictionary."""
 
-#Create a  dictionary of football palyers as keys and a'
-#list of years they won the balon d'or as values.
-#Then store this keys:values pair in a common dictionary.
+#Create a dictionary of football players as keys and 
+#list of years they've won the balon d'or as values.
+#Then store this keys:values pair in a collective dictionary.
 
 world_best = {
         'ronaldo de lima nasario' : {
@@ -10,7 +10,7 @@ world_best = {
             'Balon d\'or':[1999, 2002],
             'fifa best':[],
             'fifa world cup':[1994,2002],
-            'fifa g=olden ball':[],
+            'fifa golden ball':[],
             },
         'ronaldinho' : {
             'country':['brasil'],
@@ -42,6 +42,12 @@ world_best = {
              },
          }
 
+world_best['ronaldo de lima nasario']['club']=['inter milan', 'real madrid']
+world_best['ronaldinho']['club']=['barcelona']
+world_best['cristiano ronaldo']['club']=['manchester united', 'real madrid']
+world_best['lionel messi']['club']=['barcelona', 'paris saint german']
+world_best['luka modric']['club']=['real madrid']
+
 for player, awards in world_best.items():
     print(f'{player.upper()}-')
     for award_name, award_year in awards.items():
@@ -49,3 +55,13 @@ for player, awards in world_best.items():
         for aw_yr in award_year:
             print(f'\t*{aw_yr}')
     print()
+
+la_pulga = world_best['lionel messi']["balon d'or"]
+num = len(la_pulga)
+record = f"Lionel Messi has a record setting {num} balon d'ors."
+print(record)
+
+cr7 = world_best['cristiano ronaldo']["balon d'or"]
+num2 = len(cr7)
+numtwo = f"The closest is Cristiano Ronaldo with {num2} balon d'or awards."
+print(numtwo)
