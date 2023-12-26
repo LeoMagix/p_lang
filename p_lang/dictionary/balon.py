@@ -7,7 +7,7 @@
 world_best = {
         'ronaldo de lima nasario' : {
             'country':['brasil'],
-            'Balon d\'or':[1999, 2002],
+            'Balon d\'or':[1997, 2002],
             'fifa best':[],
             'fifa world cup':[1994,2002],
             'fifa golden ball':[],
@@ -40,6 +40,7 @@ world_best = {
              'fifa world cup':['nil'],
              'fifa golden ball':[2018],
              },
+<<<<<<< HEAD
           'karim  benzema': {
             'country':['france'],
             "balon d'or":[2022],
@@ -48,6 +49,16 @@ world_best = {
             'fifa golden ball':['nil'],
             'club':['real madrid'],
             },
+=======
+         'zinedine zidane': {
+             'country':['france'],
+             'balon d\'or':[1998],
+             'fifa best':[],
+             'fifa world cup':['1998'],
+             'fifa golden ball':[1998],
+             'club':['juventus'],
+             },
+>>>>>>> 9680548 (make changes to balon.py)
          }
 
 world_best['ronaldo de lima nasario']['club']=['inter milan', 'real madrid']
@@ -61,7 +72,7 @@ for player, awards in world_best.items():
     for award_name, award_year in awards.items():
         print(f"{award_name.title()}:")
         for aw_yr in award_year:
-            print(f'\t*{aw_yr}')
+            print(f'\t*{str(aw_yr).title()}')
     print()
 
 la_pulga = world_best['lionel messi']["balon d'or"]
