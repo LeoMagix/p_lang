@@ -40,6 +40,14 @@ world_best = {
              'fifa world cup':['nil'],
              'fifa golden ball':[2018],
              },
+          'karim  benzema': {
+            'country':['france'],
+            "balon d'or":[2022],
+            'fifa best':[],
+            'fifa world cup':['nil'],
+            'fifa golden ball':['nil'],
+            'club':['real madrid'],
+            },
          }
 
 world_best['ronaldo de lima nasario']['club']=['inter milan', 'real madrid']
