@@ -5,7 +5,7 @@
 #Then store this keys:values pair in a collective dictionary.
 
 world_best = {
-        'ronaldo de lima nasario' : {
+        'de lima ronaldo' : {
             'country':['brasil'],
             'Balon d\'or':[1997, 2002],
             'fifa best':[],
@@ -28,7 +28,7 @@ world_best = {
              },
          'lionel messi': {
              'country':['argentina'],
-             'balon d\'or':[2009,2010,2011,2012,2015,2019,2021,2022],
+             'balon d\'or':[2009,2010,2011,2012,2015,2019,2021,2023],
              'fifa  best player':[2021,2022],
              'fifa world cup':[2022],
              'fifa golden ball':[2014,2022],
@@ -59,7 +59,7 @@ world_best = {
              },
          }
 
-world_best['ronaldo de lima nasario']['club']=['inter milan', 'real madrid']
+world_best['de lima ronaldo']['club']=['inter milan', 'real madrid']
 world_best['ronaldinho']['club']=['barcelona']
 world_best['cristiano ronaldo']['club']=['manchester united', 'real madrid']
 world_best['lionel messi']['club']=['barcelona', 'paris saint german']
