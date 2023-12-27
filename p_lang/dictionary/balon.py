@@ -40,7 +40,7 @@ world_best = {
              'fifa world cup':['nil'],
              'fifa golden ball':[2018],
              },
-<<<<<<< HEAD
+
           'karim  benzema': {
             'country':['france'],
             "balon d'or":[2022],
@@ -49,7 +49,6 @@ world_best = {
             'fifa golden ball':['nil'],
             'club':['real madrid'],
             },
-=======
          'zinedine zidane': {
              'country':['france'],
              'balon d\'or':[1998],
@@ -58,7 +57,6 @@ world_best = {
              'fifa golden ball':[1998],
              'club':['juventus'],
              },
->>>>>>> 9680548 (make changes to balon.py)
          }
 
 world_best['ronaldo de lima nasario']['club']=['inter milan', 'real madrid']
