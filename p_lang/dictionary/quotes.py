@@ -3,7 +3,7 @@
 viking = f'"Odin gave his left eye to acquire knowledge, I will give far more to acquire it."'
 ragner = {'ragner lothbrok': viking}
 
-mindset = f'"Fear just like limits, is nothing but an illusion."'
+mindset = f'"limits like fears, are often just an illusion."'
 mj = {'michael jordan': mindset}
 
 work = f'"Competition is the easy part, the real work happens behind the scenes."'
