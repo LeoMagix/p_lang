@@ -27,16 +27,20 @@ for data, info in burna.items():
 
 while True:
     print("\nEnter the name of your favorite artist and album.\n "
-           "You can always enter 'q' to exit.")
+           "You can always enter 'yes' to exit.")
     
     artist = input("Please enter name of Artist:\n")
     album = input("Enter name of Album:\n")
     songs = input("Number of Songs:\n")
 
     user = make_album(artist, album, songs)
-    print(user)
+    #print(user)
+
+    for artist, desc in user.items():
+            print(f"{artist.title()}")
+            print(f"\t{str(desc).title()}")
     
     interact = input("would you like to exit?- ")
-    if interact == 'q':
+    if interact == 'yes' or interact == 'YES'  or interact == 'Yes':
         break
 
