@@ -26,24 +26,26 @@ num = input("enter number: ")
 print(num)
 print("type of num", type(num))
 
-#script to convert output from string#
+#script to convert user input from string to other data types#
 digit = int(input("\nEnter serial pin: "))
 print(digit)
 print("specify data type\n", type(digit))
 
 #script to take separated input in one line#
+print("Enter a two(2) word greeting")
 a, s = input('Greetings!: ').split()            #using the spilt() function
-print(a, s)
+print(a, s, sep="||")
 
-x,y = input('Enter Digits:').split()            #x,y or x, y either is feasible
-print(x,y)
+x,y = input('Enter Two(2) Digits:').split()            #x,y or x, y either is feasible
+print(x,y, sep=",")
 print("type of x", type(x))
 print("type of y", type(y))
 
-print('\nGive me numbers')
-w,z = int(input().split())
-print("what's ur type w", type(w))
-print("what's ur type z", type(z))
+print('\nGive me 2 numbers')
+w,z = input().split()
+print(w,z, sep="||")
+print("what's ur type w", type(int(w)))
+print("what's ur type z", type(int(z)))
 
 a = int(input("\nEnter value for a:"))      #let's do maths
 b = int(input("Enter value for b:"))
