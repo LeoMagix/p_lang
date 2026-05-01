@@ -1,7 +1,7 @@
 """The programs ask user to guess a number randomly selected by the program and 
     provides certain clues to help our user guess number."""
 
-#Call the random moduke to help with supplying arbitrarily chosen numbers
+#Call the random module to help with supplying arbitrarily chosen numbers
 from random import randint
 
 #Variable to store our arbitrary values
