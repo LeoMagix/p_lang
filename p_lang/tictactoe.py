@@ -2,7 +2,7 @@
 Simple Python that creates the preliminary for a Tic-Tac-Toe game.
 Some features I would like to add, subsequently:
     >> Announce when we have a winner or a tie.
-    >> Prevent a plyer from choosing a positon already chozen by another player.
+    >> Prevent a player from choosing a positon already chozen by another player.
     >> A mini annoucement at the start with info on how to place postions.
     >> Check/handle invalid input.
 """
